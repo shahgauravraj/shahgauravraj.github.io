@@ -16,10 +16,23 @@
 }
 
 .content h1 {
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 100;
     margin-bottom: 15px;
     color: #232d60;
+}
+
+.intro {
+    font-size: 30px;
+}
+
+.name {
+    color: royalblue;
+}
+
+.content h3 {
+    margin-top: 25px;
+    font-size: 20px;
 }
 
 .space {
@@ -29,4 +42,5 @@
 
 .note {
     text-align: right;
+    color: blue;
 }
