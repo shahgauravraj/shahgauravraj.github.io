@@ -39,9 +39,9 @@ ul {
     margin-left: 20px;
 }
 
-.space {
-    width: 100%;
-    height: 200px;
+.ext-links {
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .note {
