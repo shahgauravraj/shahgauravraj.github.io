@@ -21,3 +21,12 @@
     margin-bottom: 15px;
     color: #232d60;
 }
+
+.space {
+    width: 100%;
+    height: 200px;
+}
+
+.note {
+    text-align: right;
+}
