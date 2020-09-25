@@ -39,6 +39,10 @@ ul {
     margin-left: 20px;
 }
 
+.ext-links {
+    margin-bottom: 80px;
+}
+
 .note {
     text-align: right;
     color: blue;
