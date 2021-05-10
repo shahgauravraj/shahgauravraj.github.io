@@ -221,11 +221,7 @@ img{
   font-size: 3.3rem;
   color: var(--first-color);
 }
-.rect {
-  height: 5px;
-  width: 10px;
-  background-color: #ed8c47;
-}
+
 .home__social{
   display: flex;
   flex-direction: column;
