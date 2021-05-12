@@ -357,8 +357,7 @@ img{
   margin-bottom: var(--mb-4);
 }
 .contact__button{
-  display: inline;
-  /* display: block; */
+  display: block;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
