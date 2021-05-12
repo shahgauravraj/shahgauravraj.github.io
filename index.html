@@ -169,11 +169,19 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
+                    <!-- <form action="" class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="button" value="Send" class="contact__button button">
+                    </form> -->
+
+                    <form action="mailto:someone@example.com" class="contact__form" method="post" enctype="text/plain">
+                        <input type="text" placeholder="Name" class="contact__input"><br>
+                        <input type="text" placeholder="Email" class="contact__input"><br>
+                        <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+                        <input type="submit" value="Send" class="contact__button button">
+                        <input type="reset" value="Reset" class="contact__button button">
                     </form>
                 </div>
             </section>
