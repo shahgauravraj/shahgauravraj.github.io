@@ -9,7 +9,6 @@
 
 /*===== Colores =====*/
 :root{
-  /* --first-color: #4979fc; */
   /* --first-color: #ed8c47; */
   --first-color: #54e3ff;
   /* --second-color: #0E2431; */
@@ -222,6 +221,33 @@ img{
   font-size: 3.3rem;
   color: var(--first-color);
 }
+
+/* Part that I've added for typing effect */
+
+h1 span.typed-text {
+  color: #54e3ff;
+}
+
+ h1 span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+
+h1 span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+/* Part that I've added */
 
 .home__social{
   display: flex;
