@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 /*===== VARIABLES CSS =====*/
 :root{
@@ -17,7 +18,8 @@
 
 /*===== Fuente y tipografia =====*/
 :root{
-  --body-font: 'Poppins', sans-serif;
+  /* --body-font: 'Poppins', sans-serif; */
+  --body-font: 'Montserrat', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -339,16 +341,19 @@ h1 span.cursor.typing {
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.skills__frontend{
   width: 90%;
 }
-.skills__css{
-  width: 85%;
-}
-.skills__js{
+.skills__mobile_app {
   width: 80%;
 }
-.skills__ux{
+.skills__uiux{
+  width: 85%;
+}
+.skills__programming{
+  width: 80%;
+}
+.skills__ml{
   width: 55%;
 }
 .skills__img{

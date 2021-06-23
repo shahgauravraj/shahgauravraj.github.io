@@ -58,14 +58,14 @@ sr.reveal('.contact__input',{interval: 200});
 
 
 
-// Part that I've added for the typing effect
+// This part handles the typing effect
 
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
 const textArray = ["Software Engineer", "Software Developer", "Tech Enthusiast"];
-const typingDelay = 100;
-const erasingDelay = 50;
+const typingDelay = 120;
+const erasingDelay = 70;
 const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
