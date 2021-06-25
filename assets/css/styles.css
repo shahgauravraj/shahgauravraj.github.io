@@ -281,8 +281,8 @@ h1 span.cursor.typing {
   border-radius: .5rem;
 }
 .button:hover{
-  /* box-shadow: 0 10px 36px rgba(0,0,0,.15); */
-  box-shadow: 0 10px 36px rgba(255,255,255,.15);
+  background-color: #1d262c;
+  border: 1px solid var(--first-color);
 }
 
 /* ===== ABOUT =====*/
