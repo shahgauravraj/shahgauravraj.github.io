@@ -63,9 +63,9 @@ sr.reveal('.contact__input',{interval: 200});
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Software Engineer", "Software Developer", "Tech Enthusiast"];
-const typingDelay = 120;
-const erasingDelay = 70;
+const textArray = ["Software Engineer", "Software Developer", "Freelancer", "Tech Enthusiast"];
+const typingDelay = 100;
+const erasingDelay = 50;
 const newTextDelay = 1000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;

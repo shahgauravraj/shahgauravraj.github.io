@@ -219,10 +219,10 @@ img{
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
 }
-.home__title-color{
-  font-size: 3.3rem;
+/* .home__title-color{
+  font-size: 2.5rem;
   color: var(--first-color);
-}
+} */
 
 /* Part that I've added for typing effect */
 
@@ -266,8 +266,8 @@ h1 span.cursor.typing {
 }
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 6%;
+  bottom: 5%;
   width: 295px;
 }
 
@@ -281,7 +281,7 @@ h1 span.cursor.typing {
   border-radius: .5rem;
 }
 .button:hover{
-  background-color: #1d262c;
+  background-color: #1d262c;  
   border: 1px solid var(--first-color);
 }
 
@@ -502,6 +502,7 @@ h1 span.cursor.typing {
     margin-right: auto;
   }
   .home__img{
-    right: 6%;
+    right: 15%;
+    bottom: 20%;
   }
 }
